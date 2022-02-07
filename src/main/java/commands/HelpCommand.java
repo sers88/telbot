@@ -11,7 +11,8 @@ import org.telegram.telegrambots.meta.bots.AbsSender;
 /**
  * Команда "Помощь"
  */
-public class HelpCommand {
+public class HelpCommand extends ServiceCommand {
+
     private Logger logger = LoggerFactory.getLogger(HelpCommand.class);
 
     public HelpCommand(String identifier, String description) {
